@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  font-size: 5rem;
+  gap: 2rem;
+  color: #484848;
+}
+
+.l {
+  animation: Light 1.5s linear 0.1s infinite;
+}
+
+.i {
+  animation: Light 1.5s linear 0.2s infinite;
+}
+.g {
+  animation: Light 1.5s linear 0.4s infinite;
+}
+.h {
+  animation: Light 1.5s linear 0.6s infinite;
+}
+.t {
+  animation: Light 1.5s linear 0.8s infinite;
+}
+.i-2 {
+  animation: Light 1.5s linear 1s infinite;
+}
+.n {
+  animation: Light 1.5s linear 1.2s infinite;
+}
+.g-2 {
+  animation: Light 1.5s linear 1.4s infinite;
+}
+
+@keyframes Light {
+  0% {
+    color: #fff900;
+    text-shadow: 1px 1px 2px #ff6c00, 1px 1px 1px #fff900;
+  }
+  10% {
+    color: #484848;
+    text-shadow: 0px 0px 0px #484848, 0 0 0px #484848;
+  }
+}
