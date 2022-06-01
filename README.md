@@ -1,5 +1,11 @@
 # Light Me Up
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/Animations-Lighting/](https://saadmalik200.github.io/Animations-Lighting/)
+
+## Challenge
+
 Let's try to recreate the lighting animation shown below:
 
 ![example](img/mockup.gif)
